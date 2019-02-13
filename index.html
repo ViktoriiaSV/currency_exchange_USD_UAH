@@ -5,14 +5,20 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Конвертація: $ в UAH<h1>
+    <h1>Конвертація: $ в UAH<h1>
     <p>Введіть сумму в $:
         <input type="number" id="dollar" placeholder="$"
                oninput="moneyConverter(this.value)"
                onchange="moneyConverter(this.value)" >
     </p>
+        <p>Сумма в UAH:
+            <span id="outputuah"></span>
+        </p>
 
 
-    <script src="script.js"></script>
+
+
+
+        <script src="script.js"></script>
 </body>
 </html>
